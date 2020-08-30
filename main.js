@@ -8,7 +8,7 @@ try{
     SCOPES = ['https://www.googleapis.com/auth/calendar'],
     TOKEN_PATH = 'token.json';
 }catch(e){
-    console.log('Error loading config file. You need a config file with an Airtable API key, an Airtable API base, and Google API info. You will also need a calendar ID if not using your primary calendar!')
+    console.log('Error loading config file. You need a config file with an Airtable API key, an Airtable API base, and Google API info. You will also need a calendar ID if not using your primary calendar! Take a look at the included sampleConfig.js file for details')
     process.exit(1);
 }
 
